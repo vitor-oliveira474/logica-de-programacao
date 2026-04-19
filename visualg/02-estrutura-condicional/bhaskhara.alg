@@ -1,5 +1,5 @@
 Algoritmo "BHASKARA"
-
+// Problema: Calcular as raízes de uma equação de segundo grau (Fórmula de Bhaskara).
 Var
    a, b, c, delta, x1, x2 : real
 Inicio
@@ -16,7 +16,7 @@ Inicio
 
       x1 <- 0.0
       x2 <- 0.0
-            
+
       se (a <> 0) e (delta > 0) entao
            x1 <- (-b + RaizQ(delta))/(2 * a)
            x2 <- (-b - RaizQ(delta))/(2 * a)
